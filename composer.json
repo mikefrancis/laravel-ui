@@ -1,0 +1,28 @@
+{
+    "name": "mikefrancis/laravel-ui",
+    "description": "An unofficial collection of basic UI components powered by Tailwind",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MikeFrancis\\LaravelUi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mike Francis",
+            "email": "mikeffrancis@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/framework": "^10.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MikeFrancis\\LaravelUi\\ServiceProvider"
+            ]
+        }
+    }
+}
